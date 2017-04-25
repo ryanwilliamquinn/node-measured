@@ -134,6 +134,7 @@ http.createServer(function(req, res) {
 * `rateUnit` The rate unit. Defaults to `1000` (1 sec).
 * `tickInterval` The interval in which the averages are updated. Defaults to
   `5000` (5 sec).
+* `unref` Flag to unref the backing timer when it is created. Defaults to `false`.
 
 **Methods:**
 
@@ -229,6 +230,7 @@ http.createServer(function(req, res) {
 
 * `meter` The internal meter to use. Defaults to a new `Meter`.
 * `histogram` The internal histogram to use. Defaults to a new `Histogram`.
+* `unref` Flag to unref the backing timer when it is created. Defaults to `false`.
 
 **Methods:**
 
